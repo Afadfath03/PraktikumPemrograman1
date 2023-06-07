@@ -49,9 +49,14 @@ def selection_DESC(array):
         array[i], array[min_idx] = array[min_idx], array[i]
     return array
 
-array = [7, 4, 8, 2, 9, 5, 4, 3, 9, 1, 6, 0]
-print("Array     :", array)
+array = [7, 4, 2, 5, 3, 9, 1, 6, 0, 8]
+print("Array            : ", array)
 
-print("Insertion :", insertion_ASC(array))
-print("Bubble    :", bubble_ASC(array))
-print("Selection :", selection_ASC(array))
+print("Selection (ASC)  : ", selection_ASC(array))
+print("Selection (DESC) : ", selection_DESC(array))
+
+# print("Bubble (ASC)     : ", bubble_ASC(array))
+# print("Bubble (DESC)    : ", bubble_DESC(array))
+
+# print("Insertion (ASC) :", insertion_ASC(array))
+# print("Insertion (DESC):", insertion_DESC(array))
