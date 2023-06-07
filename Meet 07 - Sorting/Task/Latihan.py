@@ -1,7 +1,6 @@
 # Tambah Data Mahasiswa 
 def addmahasiswa() :
     jumlah = int(input("Jumlah mahasiswa: "))
-    mahasiswa = []
     while(jumlah > 0):
         nama = input("Nama mahasiswa: ")
         mahasiswa.append(nama)
@@ -35,9 +34,9 @@ def viewMahasiswa(arraymahasiswa) :
         print(f"Nama mahasiswa : {i}")
     panggil(mahasiswa)
 
-
 def panggil(arraymahasiswa) :
     mahasiswa = arraymahasiswa
+    print("\n<=========== Menu ===========>")
     print("1. Tambah Data Mahasiswa")
     print("2. Hapus Data Mahasiswa")
     print("3. Urutkan Data Mahasiswa")
@@ -57,5 +56,6 @@ def panggil(arraymahasiswa) :
     else:
         print("Pilihan tidak tersedia")
 
+mahasiswa = []
 
 addmahasiswa()
