@@ -9,8 +9,9 @@ def Selection_ASC(array):
         array[i], array[indeks] = array[indeks], array[i]
     return array
 
-Nama = ["Zhafira", "Nirmala", "Aksara", "Nalendra", "Cakra", "Sastra", "Agni", "Bagas", "Jerome", "Kiara"]
+Nama = ["Zhafira", "Nirmala", "Aksara", "Nalendra", "Cakra", 
+        "Sastra", "Agni", "Bagas", "Jerome", "Kiara"]
 
 print("Nama 10 Anggota Organisasi")
-print("Nama Sebelum Diurutkan :", Nama)
-print("Nama Setelah Diurutkan :", Selection_ASC(Nama))
+print("Before :", Nama)
+print("After  :", Selection_ASC(Nama))

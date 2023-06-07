@@ -10,5 +10,5 @@ def Bubble_DESC(array):
 IPS = [3.8, 2.9, 3.3, 4.0, 2.7]
 
 print("Indeks Prestasi Mahasiswa (IPS)")
-print("IPS Sebelum Diurutkan :", IPS)
-print("IPS Setelah Diurutkan :", Bubble_DESC(IPS))
+print("List Sebelum Diurutkan :", IPS)
+print("List Setelah Diurutkan :", Bubble_DESC(IPS))
