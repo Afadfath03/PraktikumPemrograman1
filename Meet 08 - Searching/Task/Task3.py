@@ -19,10 +19,10 @@ def Binary_Search(Array, Kata_Kunci):
         elif Array[Mid] < Kata_Kunci:
             Left = Mid + 1
         else:
-            print(f'\n\nNIM {Kata_Kunci} ditemukan pada index ke-{Mid}')
+            print(f'\n\nAngka {Kata_Kunci} ditemukan pada index ke-{Mid}')
             return Mid
     
-    print(f'\n\nNIM {Kata_Kunci} tidak ditemukan')
+    print(f'\n\nAngka {Kata_Kunci} tidak ditemukan')
 
 List_Angka = [17, 2, 15, 7, 72, 31, 12, 57, 63, 71, 23, 92, 1]
 
@@ -31,7 +31,7 @@ Kata_Kunci = 72
 print('Daftar Angka: ')
 showList(List_Angka)
 
-print(f'\n\nNIM yang dicari: {Kata_Kunci}')
+print(f'\n\nAngka yang dicari: {Kata_Kunci}')
 print('\nSetelah Diurutkan : ')
 showList(Bubble_Sort(List_Angka))
 Binary_Search(Bubble_Sort(List_Angka), Kata_Kunci)

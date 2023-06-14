@@ -1,7 +1,3 @@
-def showList(ArrayList):
-    for i in range(len(ArrayList)):
-        print(f'{i}. {ArrayList[i]}')
-
 def Linear_Search(ArrayList, Keyword):
     for i in range(len(ArrayList)):
         if ArrayList[i] == Keyword:
@@ -15,7 +11,8 @@ ListPlat = ["R 2477 SR", "R 1234 DJ", "R 7015 LP", "R 0201 RR",
 Kata_Kunci = "R 2488 SR"
 
 print(f'Daftar Plat Nomor: ')
-showList(ListPlat)
+for i in range(len(ListPlat)):
+    print(f'{i}. {ListPlat[i]}')
 
 print(f'\nPlat Nomor yang dicari: {Kata_Kunci}')
 Linear_Search(ListPlat, Kata_Kunci)
